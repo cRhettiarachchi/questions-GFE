@@ -109,9 +109,3 @@ export default function debounce(func, wait = 0) {
   }
 }
 ```
-
----
-
-You're mastering one of the most important tools in the frontend toolbox. 📚  
-ナイス！これを理解できれば、面接でも自信満々で答えられるよ 🔥🚀  
-Want me to also include `cancel()` and `flush()` methods in an extended version?
