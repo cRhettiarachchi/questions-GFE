@@ -13,7 +13,9 @@ Array.prototype.myReduce = function <T, U>(
   ) => U,
   initialValue: U,
 ): U {
-  console.log(this)
+  const data = this
+
+  if (!Array.isArray(data)) throw new Error('Invalid array')
 
   return initialValue
 }
