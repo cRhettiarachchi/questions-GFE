@@ -1,7 +1,9 @@
 import './'
 
-const add = (prev: any, curr: any) => prev + curr
-
+const add = (prev: any, curr: any) => {
+  console.log(prev)
+  return prev + curr
+}
 describe('Array.prototype.myReduce', () => {
   test('add numbers', () => {
     expect([-4, 10].myReduce(add, 0)).toEqual(6)
