@@ -113,6 +113,7 @@ to collect classes. This is more efficient because it avoids repeated .join()
 calls and is easier to debug.
 
 ```TS
+
 export default function classNames(...args) {
   const classes = [];
 
